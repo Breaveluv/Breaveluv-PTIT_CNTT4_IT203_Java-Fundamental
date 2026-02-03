@@ -1,7 +1,7 @@
 package SS7.bai6;
 
 public class User {
-    public final int id; 
+    public final int id;
     public String username;
     public String password;
 
@@ -11,7 +11,6 @@ public class User {
         this.password = password;
     }
 
-    @Override
     public String toString() {
         return "User[id=" + id + ", name=" + username + "]";
     }
